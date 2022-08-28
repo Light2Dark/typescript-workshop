@@ -1,13 +1,20 @@
 # Typescript Workshop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Learn typescript in this interactive fakerAPI tutorial!
 
-To run this project on Gitpod:
+### To run this project on Gitpod:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Light2Dark/typescript-workshop)
 
+### To add hot-reload in Gitpod:
+
+1. create a `.env` file in the root directory
+2. add `WDS_SOCKET_PORT=0` 
+3. restart the server
+
 ## Available Scripts
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
 In the project directory, you can run:
 
 ### `npm start`
