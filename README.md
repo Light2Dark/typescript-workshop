@@ -12,6 +12,16 @@ Learn typescript in this interactive fakerAPI tutorial!
 2. add `WDS_SOCKET_PORT=0` 
 3. restart the server
 
+### To view different stages of project:
+
+You can choose different branches of this project to see it at different stages
+
+```
+git switch starter # removed all uneccesary files and is a good starting point for this project
+
+git switch completed # the completed project *(uses CSS stylesheets instead of styled components)*
+```
+
 ## Available Scripts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
