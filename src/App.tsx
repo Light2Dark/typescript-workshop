@@ -6,6 +6,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Faker Personas</h1>
       {
         error ? 
           (<p>Error: {error} </p>) :
