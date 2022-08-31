@@ -1,13 +1,13 @@
 import PersonaCard, { PersonaProps } from "./Persona"
 
 type PersonaListProps = {
-    className?: string
+
     personas: PersonaProps[]
 }
 
-const PersonaList = ({className, personas}: PersonaListProps) => {
+const PersonaList = ({personas}: PersonaListProps) => {
     return (
-        <section className={className}>
+        <section className="container">
             {personas.map(persona => (
                 <PersonaCard key={persona.id} persona={persona}  />
             ))}
