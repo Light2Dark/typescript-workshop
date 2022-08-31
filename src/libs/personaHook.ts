@@ -26,12 +26,12 @@ const usePersonas = (numPersonasToFetch?: number) => {
                 if (isFetching) {
                     setPersonas(persona.map((persona : any) : PersonaProps => {
                         return {
-                        id: persona.id,
-                        firstName: persona.firstName,
-                        lastName: persona.lastName,
-                        email: persona.email,
-                        gender: persona.gender,
-                        country: persona?.address?.country
+                            id: persona.id,
+                            firstName: persona.firstname,
+                            lastName: persona.lastname,
+                            email: persona.email,
+                            gender: persona.gender,
+                            country: persona?.address?.country
                         }
                     }))
                 }
